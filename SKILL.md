@@ -1,11 +1,11 @@
 ---
-name: api-to-mcp
+name: swagger-to-mcp
 description: Convert OpenAPI v3 specifications into MCP servers using HAPI CLI. Supports local, Docker, and Cloudflare Workers deployment. Zero code required. Use when you need to expose API functionality as MCP tools or deploy API-based services to multiple hosting platforms.
 license: MIT
 compatibility: Requires hapi, curl; optionally docker and wrangler for deployment
 metadata:
   author: mcp.com.ai agent-skills
-  version: "0.1.0"
+  version: "0.2.0"
 allowed-tools: Bash(curl:*) Bash(hapi:*) Read Bash(docker:*) Bash(wrangler:*)
 ---
 
